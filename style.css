@@ -1,3 +1,7 @@
+/* Font Google */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+/* Style Css */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -7,4 +11,39 @@
 }
 body {
   background: hsl(212, 45%, 89%);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer horizontalement */
+  justify-content: center; /* Centrer verticalement */
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  background: hsl(0, 0%, 100%);
+  width: 300px;
+  border-radius: 15px;
+}
+
+.containerQR {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  height: 300px; /* Ajuster la hauteur selon vos besoins */
+}
+
+.imageQR {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }

@@ -3,11 +3,15 @@
 
 /* Style Css */
 .attribution {
-  font-size: 11px;
+  width: 100%;
   text-align: center;
+  padding: 0.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .attribution a {
-  color: hsl(0, 91%, 58%);
+  color: hsl(240, 100%, 47%);
 }
 body {
   background: hsl(212, 45%, 89%);
@@ -17,6 +21,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 5%;
 }
 
 .section {
@@ -46,4 +51,23 @@ main {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-family: Outfit;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1em;
 }

@@ -71,3 +71,13 @@ p {
   color: hsl(220, 15%, 55%);
   font-size: 1em;
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Assure que main occupe toute la hauteur de la fenêtre */
+  }
+}
